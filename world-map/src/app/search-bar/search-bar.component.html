@@ -1,0 +1,6 @@
+<div class="search">
+    <form (submit)="onFormSubmit($event)">
+        <label for="searchCountry">Type a country and press enter:</label>
+        <input id="searchCountry" type="search" class="search-field" (input)="setCountry($event)">
+    </form>
+</div>

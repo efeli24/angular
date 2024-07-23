@@ -1,0 +1,16 @@
+<div class="mainSection">
+    <div class="search-and-name">
+        
+    </div>
+    <div class="information" *ngFor="let detail of countryDetails">
+        <h1 class="country-name">{{ detail['name'] }}</h1>
+        <h3>Country Details</h3>
+        <ul>
+            <li><span class="info-category">Capital:</span> <!--{{countryCapital}}--></li>
+            <li><span class="info-category">Region:</span> <!--{{countryRegion}}--></li>
+            <li><span class="info-category">Income Level:</span> <!-- {{countryIncome}}--></li>
+            <li><span class="info-category">Longitude:</span> <!-- {{countryLong}}--></li>
+            <li><span class="info-category">Latitude:</span> <!--{{countryLat}}--></li>
+        </ul>
+    </div>
+</div>
